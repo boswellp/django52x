@@ -87,12 +87,12 @@ class OpenLayersWidget(BaseGeometryWidget):
     class Media:
         css = {
             "all": (
-                "https://cdn.jsdelivr.net/npm/ol@v7.2.2/ol.css",
+                "https://maps.peterboswell.net/malewaforest-files/ol.css",
                 "gis/css/ol3.css",
             )
         }
         js = (
-            "https://cdn.jsdelivr.net/npm/ol@v7.2.2/dist/ol.js",
+            "https://maps.peterboswell.net/malewaforest-files/ol.js",
             "gis/js/OLMapWidget.js",
         )
 
