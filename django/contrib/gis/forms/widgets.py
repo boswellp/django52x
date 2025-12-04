@@ -113,9 +113,9 @@ class OSMWidget(OpenLayersWidget):
     """
 
     template_name = "gis/openlayers-osm.html"
-    default_lon = 5
-    default_lat = 47
-    default_zoom = 12
+    default_lon = 36.68
+    default_lat = -1.14
+    default_zoom = 14
 
     def __init__(self, attrs=None):
         super().__init__()
